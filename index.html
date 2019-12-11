@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
+    <link rel="stylesheet" href="style.css">
+    <title>Piano</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row ">
+            <div class="col">
+                <h1>Piano</h1>
+            </div>       
+            
+        </div>
+        <div class="notas row" id="padre">
+            <div class="col boton do" id="do" data-value="do">Do</div>
+            <div class="col boton re" id="re" data-value="re">Re</div>
+            <div class="col boton mi" id="mi" data-value="mi">Mi</div>
+            <div class="col boton fa" id="fa" data-value="fa">Fa</div>
+            <div class="col boton sol" id="sol" data-value="sol">Sol</div>
+            <div class="col boton la" id="la" data-value="la">La</div>
+            <div class="col boton si" id="si" data-value="si">Si</div>
+        </div>
+        <div class="row">
+            <audio class="teclas" id="ndo"  data-value="q" src="notas/DO.wav"></audio>
+            <audio class="teclas" id="nre"  data-value="w" src="notas/RE.wav"></audio>
+            <audio class="teclas" id="nmi"  data-value="e" src="notas/MI.wav"></audio>
+            <audio class="teclas" id="nfa"  data-value="r" src="notas/FA.wav"></audio>
+            <audio class="teclas" id="nsol"  data-value="t" src="notas/SOL.wav"></audio>
+            <audio class="teclas" id="nla"  data-value="y" src="notas/LA.wav"></audio>
+            <audio class="teclas" id="nsi"  data-value="u" src="notas/SI.wav"></audio>
+        </div>
+
+    </div>
+
+
+    
+
+
+
+
+    <script src="jquery-3.1.0.min.js"></script>
+    <script src="app-jquery.js"></script>
+</body>
+
+</html>
